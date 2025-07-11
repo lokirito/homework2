@@ -6,27 +6,12 @@
 }
 
 @media (max-width:990px) {
+
   .top__star-box {
     display: none;
   }
 
-  .game__info {
-    border-radius: 0px 0px 30px 30px;
-    padding: 29px;
-
-    &-title {
-      font-size: 32px;
-      line-height: 39px;
-    }
-
-    &-text {
-      font-size: 16px;
-      line-height: 20px;
-      padding-top: 16px;
-      padding-bottom: 32px;
-      white-space: normal;
-    }
-  }
+  
 }
 
 @media (max-width:767px) {
@@ -41,6 +26,7 @@
 
       &__star-box {
         display: block;
+        overflow: hidden;
       }
     }
 
@@ -114,8 +100,8 @@
 }
 
 .game {
-  padding-top: 48px;
-  padding-bottom: 49px;
+padding-top: 48px;
+padding-bottom: 49px;
 
   &__star-box {
     display: none;
@@ -127,7 +113,6 @@
 
   &-mob__content {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     row-gap: 24px;
   }
@@ -135,6 +120,10 @@
   &__cart {
     display: flex;
     flex-direction: column;
+  }
+
+  &__info {
+    border-radius: 0px 0px 20px 20px;
   }
 }
 
