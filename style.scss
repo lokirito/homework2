@@ -142,27 +142,18 @@ html {
   }
   
   &-box {
-    position: relative;
-    z-index: -2;
     box-sizing: border-box;
     padding-top: 92px;
     padding-bottom: 52px;
-
-    &_index {
-      background: rgb(32, 32, 39);
-    }
+    background-color: rgb(32, 32, 39);
+    background-image: url(img/starbig.svg);
+    background-repeat: no-repeat;
+    background-position: top 105px right 0px;
 
     &__star {
       position: absolute;
       left: 45px;
       top: 800px;
-
-      &-big {
-        position: absolute;
-        top: 105px;
-        right: 0;
-        z-index: -1;
-      }
 
       &-small {
         position: absolute;
@@ -196,6 +187,8 @@ html {
   font-weight: 700;
   line-height: 78px;
   padding-bottom: 24px;
+  position: relative;
+  z-index: 0;
 }
 
 .text {
@@ -213,7 +206,7 @@ html {
   padding-bottom: 144px;
   background-color: rgb(32, 32, 39);
 
-  &-mob__content {
+  &__mob-content {
     display: none;
   }
 

@@ -23,11 +23,6 @@
 
     .top {
       display: none;
-
-      &__star-box {
-        display: block;
-        overflow: hidden;
-      }
     }
 
     .top-mob {
@@ -40,9 +35,7 @@
       background-position: 215px -93px;
 
       &__star {
-        top: -87px;
-        right: -87px;
-        overflow: hidden;
+        position: absolute;
 
         &-green {
           left: 275px;
@@ -114,7 +107,7 @@ padding-bottom: 49px;
     display: none;
   }
 
-  &-mob__content {
+  &__mob-content {
     display: flex;
     flex-direction: column;
     row-gap: 24px;
