@@ -33,8 +33,6 @@ html {
 }
 .top__star {
   position: absolute;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .top__star-side {
   top: 0;
@@ -98,6 +96,7 @@ html {
   border-radius: 30px;
   box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
   box-sizing: border-box;
+  overflow: hidden;
 }
 .product:nth-child(4), .product:nth-child(6) {
   height: 551px;
@@ -221,18 +220,14 @@ html {
 .game__cart {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  border-radius: 30px;
+  overflow: hidden;
 }
 .game__info {
   background: #fff;
   box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
   box-sizing: border-box;
   padding: 48px;
-}
-.game__info_radius-left {
-  border-radius: 30px 0px 0px 30px;
-}
-.game__info_radius-right {
-  border-radius: 0px 30px 30px 0px;
 }
 .game__info-title {
   color: rgb(32, 32, 39);
@@ -293,7 +288,7 @@ html {
     background-color: #E1FF8F;
     background-image: url(img/mobstar.svg);
     background-repeat: no-repeat;
-    background-position: 174px -93px;
+    background-position: 215px -93px;
   }
   .top-mob__star {
     top: -87px;
